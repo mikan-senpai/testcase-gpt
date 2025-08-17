@@ -1,0 +1,78 @@
+# ============================================
+# Complete Requirements for All Excel Analyzers
+# ============================================
+
+# Core Python packages for data handling
+pandas==2.0.3
+numpy==1.24.3
+openpyxl==3.1.2  # For reading/writing Excel files
+xlrd==2.0.1      # For reading older Excel formats
+
+# API and HTTP packages
+openai==1.35.3   # OpenAI client (works with HuggingFace)
+requests==2.31.0
+httpx==0.25.0    # For async HTTP requests
+urllib3==2.0.7
+
+# HuggingFace packages
+transformers==4.36.0
+huggingface-hub==0.19.4
+sentence-transformers==2.2.2
+
+# LlamaIndex packages (optional - for advanced features)
+llama-index==0.10.0
+llama-index-core==0.10.0
+llama-index-llms-huggingface==0.1.0
+llama-index-embeddings-huggingface==0.1.0
+llama-index-readers-file==0.1.0
+
+# LlamaParse for document parsing (optional)
+llama-parse==0.3.0
+
+# Groq SDK (for qroq.py script)
+groq==0.4.2
+
+# Data processing and utilities
+python-dotenv==1.0.0  # For environment variables
+pydantic==2.5.0       # Data validation
+typing-extensions==4.9.0
+
+# For better data analysis
+matplotlib==3.7.2     # For data visualization (optional)
+seaborn==0.12.2      # Statistical data visualization (optional)
+plotly==5.18.0       # Interactive visualizations (optional)
+
+# JSON and file handling
+jsonschema==4.20.0
+pyyaml==6.0.1
+
+# Vector stores (optional - for LlamaIndex advanced indexing)
+faiss-cpu==1.7.4     # Facebook AI Similarity Search
+chromadb==0.4.22     # Vector database
+
+# Document parsing (optional - for more file types)
+python-docx==1.1.0   # Word documents
+pypdf==3.17.0        # PDF files
+python-pptx==0.6.23  # PowerPoint files
+
+# Development and debugging tools (optional)
+ipython==8.18.0      # Interactive Python
+jupyter==1.0.0       # Jupyter notebooks
+pytest==7.4.3        # Testing framework
+
+# ============================================
+# Installation Instructions:
+# ============================================
+#
+# For MINIMAL setup (just Excel analysis):
+#   pip install pandas openpyxl openai requests
+#
+# For STANDARD setup (with HuggingFace):
+#   pip install pandas openpyxl openai requests transformers
+#
+# For FULL setup (with LlamaIndex):
+#   pip install -r requirements-all.txt
+#
+# Note: Some packages like torch/transformers are large (>1GB)
+# Install only what you need for your use case
+# ============================================

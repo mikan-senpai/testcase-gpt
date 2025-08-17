@@ -1,0 +1,27 @@
+.venv/
+venv/
+env/
+virtual/
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Env files
+.env
+
+# Tools/IDEs
+.vscode/
+.idea/
+
+# Test/typing caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data/cache
+cache/
+
+.apikey
