@@ -2,13 +2,17 @@
 
 An intelligent test analysis tool that leverages AI/LLM models to analyze Excel documents and generate comprehensive test scenarios, test cases, SQL queries, and quality assurance documentation. Perfect for QA engineers, database developers, and testing teams.
 
-## APP DEMO
-![App Screenshot](screenshots/1.png)
-![App Screenshot](screenshots/2.png)
-![App Screenshot](screenshots/3.png)
-![App Screenshot](screenshots/4.png)
-# watch the demo here -> 
-[Watch Demo](https://www.youtube.com/watch?v=fDAqbBDxe60)
+## App Demo
+
+<!-- Compact screenshots in one line using smaller images -->
+<p float="left">
+  <img src="screenshots/1.png" width="150" />
+  <img src="screenshots/2.png" width="150" />
+  <img src="screenshots/3.png" width="150" />
+  <img src="screenshots/4.png" width="150" />
+</p>
+
+**Watch the demo:** [Click here](https://www.youtube.com/watch?v=fDAqbBDxe60){:target="_blank"}
 
 
 ## 🎯 Features
