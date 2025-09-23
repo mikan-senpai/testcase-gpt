@@ -2,6 +2,15 @@
 
 An intelligent test analysis tool that leverages AI/LLM models to analyze Excel documents and generate comprehensive test scenarios, test cases, SQL queries, and quality assurance documentation. Perfect for QA engineers, database developers, and testing teams.
 
+## APP DEMO
+![App Screenshot](screenshots/1.png)
+![App Screenshot](screenshots/2.png)
+![App Screenshot](screenshots/3.png)
+![App Screenshot](screenshots/4.png)
+# watch the demo here -> 
+[Watch Demo](https://www.youtube.com/watch?v=fDAqbBDxe60)
+
+
 ## 🎯 Features
 
 - **🤖 AI-Powered Analysis**: Uses multiple LLM models (HuggingFace, Groq, Azure OpenAI)
