@@ -7,10 +7,10 @@ An intelligent test analysis tool that leverages AI/LLM models to analyze Excel 
 ## App Demo
 
 <p float="left">
-  <img src="screenshots/1.png" width="200" />
-  <img src="screenshots/2.png" width="200" />
-  <img src="screenshots/3.png" width="200" />
-  <img src="screenshots/4.png" width="200" />
+  <img src="screenshots/1.png" width="300" />
+  <img src="screenshots/2.png" width="300" />
+  <img src="screenshots/3.png" width="300" />
+  <img src="screenshots/4.png" width="300" />
 </p>
 
 [![Watch Demo](screenshots/demo_thumbnail.png)](https://www.youtube.com/watch?v=fDAqbBDxe60)
